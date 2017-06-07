@@ -1,0 +1,12 @@
+// adjustment vars
+$footerHeight: 50px;
+
+// colors
+$black: #000;
+$white: #fff;
+
+
+@import "layout/adjustment";
+
+@import "sections/*.scss";
+
