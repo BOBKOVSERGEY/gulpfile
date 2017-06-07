@@ -3,4 +3,20 @@
 }
 .title {
   color: green;
+  text-align: right;
+  border: 1px solid red;
+  transition: all .3s;
+
+  &:hover {
+    display: flex;
+    transform: translateX(-50%);
+  }
+}
+.social_fb {
+  display: block;
+  @extend .icon-fb;
+
+  &:hover  {
+    @extend .icon-fb-hover;
+  }
 }
